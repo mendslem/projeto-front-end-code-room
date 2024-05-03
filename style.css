@@ -68,9 +68,10 @@ h1 {
 
 .apresentacao__conteudo__titulo {
     font-size: 80px;
-    font-family: 'Poppins', sans-serif;
     color: #000000;
-    
+    font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
 }
 
 .apresentacao__conteudo__texto {
