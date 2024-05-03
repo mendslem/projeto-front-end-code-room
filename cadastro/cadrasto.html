@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar Conta</title>
+    <link rel="stylesheet" href="style-cadastro.css"> <!-- Inclui o arquivo CSS externo -->
+</head>
+<body>
+    <div class="centralizar"> <!-- Div centralizada na página -->
+        <div class="container"> <!-- Contêiner para o formulário -->
+            <h2 class="titulo-conta">Crie uma Conta</h2>
+            <p class="subtitulo">É fácil e rápido.</p> <!-- Adiciona a frase aqui -->
+            <form action="#"> <!-- Formulário -->
+                <div class="input-group"> <!-- Grupo de campos de entrada -->
+                    <input type="text" placeholder="Primeiro Nome" required> <!-- Campo de texto para o primeiro nome -->
+                    <input type="text" placeholder="Segundo Nome" required> <!-- Campo de texto para o segundo nome -->
+                </div>
+                <input type="date" placeholder="Data de Nascimento" required><br> <!-- Campo de data de nascimento -->
+                <input type="email" placeholder="Email" required><br> <!-- Campo de email -->
+                <input type="tel" placeholder="WhatsApp" required><br> <!-- Campo de WhatsApp -->
+                <select required> <!-- Campo de seleção -->
+                    <option value="" disabled selected>Selecione uma opção</option> <!-- Opção padrão -->
+                    <option value="opcao1">Estudante escola publica</option> <!-- Opção 1 -->
+                    <option value="opcao2">Universitario</option> <!-- Opção 2 -->
+                </select><br>
+                <button class="cadastrar-se">Cadastrar-se</button>
+            </form>
+
+        </div>       
+
+    </div>
+
+    <div class="voltar-cadastro"><a href="../index.html"><p>Voltar para a página inicial.</p></a></div>
+
+</body>
+</html>

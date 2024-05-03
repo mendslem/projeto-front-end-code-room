@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1F1F1F; /* Define a cor de fundo do cabeçalho como preto */
+    height: 150px; /* Define a altura do cabeçalho */
+}
+
+.topo-login, .topo-cadastro{
+    color: #438DD1;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+}
+
+.retangulo_roxo {
+    width: 100%; /* Largura total */
+    height: 5px; /* Altura desejada */
+    background-color: #4B0082;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    color:#B3A074;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+.titulo-destaque {
+    color:#8693B3;
+}
+
+#logue-site {
+    margin-right: 10px; /* Adicione uma margem à direita para separar o "Logue aqui" dos outros links */
+}
+
+.apresentacao {
+    margin: 10% 15%;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao__header {
+    width: 90%; /* Use 100% para ocupar toda a largura do cabeçalho */
+    height: 100%; /* Use 100% para ocupar toda a altura do cabeçalho */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 0px; /* Adicione espaçamento interno somente nos lados */
+}
+.apresentacao__conteudo {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 80px;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    
+}
+
+.apresentacao__conteudo__texto {
+    font-size: 35px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+
+.apresentacao__link {
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+}
+
+.apresentacao__links__link {
+    background-color: #22d4fd;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0px;
+    text-decoration: none;
+    color:#000000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.apresentacao img {
+    width: 40%;
+    height: auto;
+
+}
+
+.faixa_meio {
+    background-color: black;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.faixa_meio_mensagem {
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    padding-top: 50px ;
+}
+
+.faixa_meio_imagens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Ajuste a margem conforme necessário */
+}
+
+.faixa_meio_apresentacao {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 10px; /* Adicione margem entre as imagens */
+}
+
+.faixa_meio_apresentacao:last-child {
+    margin-top: 40px; /* Adicione uma margem superior apenas para a última imagem */
+}
+
+.corpo {
+    font-family: Poppins;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: calc(100vh - 150px); /* Subtraindo a altura do cabeçalho */
+    margin: 0; /* Removendo margem */
+    margin-bottom: 700px;
+}
+
+
+.cursos-container {
+    display: flex;
+    justify-content: space-between; /* Distribui os cursos igualmente na linha */
+    align-items: flex-start; /* Alinha os itens no topo */
+    flex-wrap: nowrap; /* Impede que os cursos quebrem para a próxima linha */
+    width: 70%;
+    margin: 0 auto;
+    overflow-x: auto; /* Adiciona uma barra de rolagem horizontal caso os cursos não caibam na tela */
+}
+
+.curso {
+    width: calc(30% - 20px); /* Define a largura do curso e subtrai a margem */
+    border: none;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 20px 0; /* Ajusta a margem verticalmente, aumentando para 20px */
+    text-align: left; /* Centraliza o texto */
+
+}
+
+.curso img {
+    width: 100%; /* Ajusta a largura da imagem para preencher o contêiner */
+    border-radius: 5px;
+    margin-bottom: 10px; /* Adiciona margem abaixo da imagem */
+}
+
+
+
+.curso button {
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 14px;
+    width: 100%; /* Botão cobrindo a caixa inteira */
+    padding: 10px 0; /* Ajuste de preenchimento vertical */
+    background-color: #000;
+    color: #fff;
+    border-radius: 22px; /* Removendo borda arredondada */
+}
+
+.curso button:hover {
+    background-color: #0056b3;
+}
+
+.titulo-curso{
+    color: #1F1F1F;
+    font-weight: 900;
+  
+}
+
+.texto-curso{
+    color: #757575;
+}
+
+.chamada-cursos {
+    text-align: center; /* Centralizando o conteúdo */
+}
+
+.chamada-cursos h1 {
+    color: #1F1F1F;
+    font-size: 42px; /* Ajustando o tamanho do título */
+    font-weight: bold;
+    padding-top: 45px;
+    font-family: Poppins;
+}
+
+.chamada-cursos h2 {
+    color: #757575;
+    font-size: 22px; /* Ajustando o tamanho do subtítulo */
+    margin-top: 20px; /* Espaçamento entre o título e o subtítulo */
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+footer {
+    background-color: black; /* Define a cor de fundo do cabeçalho como preto */
+    height: 300px; /* Define a altura do cabeçalho */ 
+}
+
+.mostrar__footer {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column; /* Alterando a direção para coluna */
+    align-items: center; /* Alinhando itens no centro horizontalmente */
+    justify-content: center; /* Alinhando itens no centro verticalmente */
+    padding: 0; /* Removendo qualquer espaçamento interno */
+    margin: 0 auto; /* Centralizando horizontalmente */
+}
+
+.footer-utfpr{
+    color: #0056b3;
+}

@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    background-color: #030303;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background-color: #0C0C0C;
+    border-radius: 8px;
+    width: 450px;
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Alterado para flex-start */
+    align-items: center;
+    margin: 20px auto 0 auto; /* Alterado para um espaçamento superior menor */
+  }
+  
+  
+  
+  .login-form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .login-form h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 32px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 10px; /* Reduzindo a margem inferior */
+    margin-top: 100px;
+  }
+
+  .subtitle {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px; /* Corrigindo o tamanho do texto */
+    margin-bottom: 20px; /* Reduzindo o espaçamento entre o subtítulo e os inputs */
+    color: #696969;
+    text-align: center;
+  }
+
+  .subtitle .destaque-cadastro{
+    color: #B9B2B2; /* Altere a cor conforme necessário */
+}
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    color: #fff;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .entrar{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    background-color: #164EA1;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .cadastrar{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    width: 340px;
+    height: 50px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #1C1C1C;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+
+  .form-group input {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    width: 320px;
+    height: 30px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #000000; /* Nova cor de fundo para os campos de entrada */
+    color: #696969; /* Cor do texto dentro dos campos */
+  }
+  
+
+  .esqueci-senha {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #696969;
+    padding: px;
+  }
+
+  a:link, a:visited, a:hover, a:active {
+    
+    color: #164EA1;
+}
+
+.voltar-login{
+  text-align: center;
+  color: #0056b3;
+}

@@ -1,0 +1,125 @@
+/* Define o estilo geral para o corpo da página */
+body {
+
+    background-color: #030303; /* Define a cor de fundo do corpo */
+    color: #fff; /* Define a cor do texto */
+    font-family: Poppins; /* Define a fonte do texto */
+    margin: 0; /* Remove as margens padrão */
+    padding: 0; /* Remove o preenchimento padrão */
+}
+.titulo-conta{
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: -8px;
+    
+}
+.subtitulo{
+    text-align: center;
+    font-size: 16px;
+    
+    color: #696969;
+}
+   
+
+/* Classe para centralizar elementos vertical e horizontalmente */
+.centralizar {
+    display: flex; /* Usa o sistema de layout flexbox */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Define a altura igual à altura da janela de visualização */
+  
+}
+
+/* Estiliza o contêiner que envolve o formulário */
+.container {
+    width: 400px; /* Define a largura do contêiner */
+    height: 550px; /* Define a altura do contêiner */
+    background-color: #0C0C0C; /* Define a cor de fundo do contêiner */
+    padding: 20px; /* Adiciona espaçamento interno */
+    border-radius: 15px; /* Arredonda as bordas do contêiner */
+    margin: 50px auto 0; /* Define as margens superior e inferior e centraliza horizontalmente */
+}
+
+/* Estiliza o grupo de campos de entrada */
+.input-group {
+    display: flex; /* Usa o sistema de layout flexbox */
+    justify-content: space-between; /* Distribui o espaço entre os elementos */
+}
+
+/* Estiliza os campos de entrada e seleção dentro do grupo */
+.input-group input,
+.input-group select {
+    width: calc(50% - 5px); /* Define a largura igual para todos os campos dentro do grupo */
+    margin-right: 5px; /* Adiciona espaçamento entre os campos */
+    color: #696969; /* Define a cor do texto dentro dos inputs */
+    background-color: #000000; /* Define a cor de fundo dos inputs */
+}
+
+/* Adiciona espaçamento entre os campos "Primeiro Nome" e "Segundo Nome" */
+.input-group input:first-child {
+    margin-right: 2.5px;
+}
+
+/* Estiliza os campos de texto */
+input[type="text"] {
+    font-family: Poppins;
+    width: 100%; /* Define a largura total */
+    height: 40px;
+    padding: 10px; /* Adiciona espaçamento interno */
+    margin: 5px 0; /* Adiciona espaçamento externo */
+    border: none; /* Remove a borda */
+    border-radius: 15px; /* Arredonda as bordas */
+}
+
+/* Estiliza o campo de email */
+input[type="email"],
+input[type="date"],
+input[type="tel"],
+select {
+    font-family: Poppins;
+    width: 95%; /* Define a largura total */
+    height: 40px;
+    padding: 10px; /* Adiciona espaçamento interno */
+    margin: 5px 0; /* Adiciona espaçamento externo */
+    border: none; /* Remove a borda */
+    border-radius: 15px; /* Arredonda as bordas */
+    color: #696969; /* Define a cor do texto dentro dos inputs */
+    background-color: #000000; /* Define a cor de fundo dos inputs */
+}
+
+/* Estiliza o campo de seleção */
+select {
+    font-family: Poppins;
+    width: 100%; /* Define a largura total */
+    height: 60px;
+    padding: 10px; /* Adiciona espaçamento interno */
+    margin: 5px 0; /* Adiciona espaçamento externo */
+    border: none; /* Remove a borda */
+    border-radius: 15px; /* Arredonda as bordas */
+    color: #696969; /* Define a cor do texto dentro do campo de seleção */
+    background-color: #000000; /* Define a cor de fundo do campo de seleção */
+}
+
+/* Estiliza a opção "Selecione uma opção" */
+select option[value=""][disabled] {
+    color: #999; /* Define a cor do texto da opção "Selecione uma opção" */
+}
+
+/* Estiliza o botão de envio */
+.cadastrar-se {
+    font-family: Poppins;
+    width: 100%; /* Define a largura total */
+    height: 55px;
+    padding: 10px; /* Adiciona espaçamento interno */
+    margin-top: 10px; /* Adiciona espaçamento superior */
+    background-color: #0F7A5A; /* Define a cor de fundo do botão */
+    color: #fff; /* Define a cor do texto do botão */
+    border: none; /* Remove a borda */
+    border-radius: 5px; /* Arredonda as bordas */
+    cursor: pointer; /* Altera o cursor ao passar por cima */
+}
+
+.voltar-cadastro{
+    text-align: center;
+    color: #0056b3;
+}
