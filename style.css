@@ -40,10 +40,6 @@ h1 {
     color:#8693B3;
 }
 
-#logue-site {
-    margin-right: 10px; /* Adicione uma margem à direita para separar o "Logue aqui" dos outros links */
-}
-
 .apresentacao {
     margin: 10% 15%;
     display: flex; 
@@ -70,8 +66,8 @@ h1 {
     font-size: 80px;
     color: #000000;
     font-family: "Poppins", sans-serif;
-  font-weight: 800;
-  font-style: normal;
+    font-weight: 800;
+    font-style: normal;
 }
 
 .apresentacao__conteudo__texto {
