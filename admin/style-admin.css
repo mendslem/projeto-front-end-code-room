@@ -6,10 +6,16 @@ body {
   margin: 0; /* Remove as margens padrão */
   padding: 0; /* Remove o preenchimento padrão */
 }
-.titulo-conta {
+.cadastro-usuarios {
   text-align: center;
   font-size: 32px;
   margin-bottom: -8px;
+}
+
+.titulo-painel {
+  text-align: center;
+  color: #696969;
+  font-size: 18px;
 }
 
 /* Classe para centralizar elementos vertical e horizontalmente */
