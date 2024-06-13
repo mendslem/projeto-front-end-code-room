@@ -121,3 +121,14 @@ select option[value=""][disabled] {
   text-align: center;
   color: #0056b3;
 }
+
+.delete-user {
+  cursor: pointer;
+  color: red; /* Cor do símbolo */
+  font-size: 20px; /* Tamanho do símbolo */
+  margin-left: 10px;
+}
+
+.delete-user:hover {
+  color: darkred; /* Cor ao passar o mouse por cima */
+}
